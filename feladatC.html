@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vívás</title>
+    <link rel="shortcut icon" href="images/sword.png" type="image/x-icon" />
+    <link rel="stylesheet" href="feladatCformaz.css" />
+    <script src="feladatCfeldolgoz.js" defer></script>
+  </head>
+  <body data-bcolor="#8ba0a4">
+    <header>
+      <nav>
+        <a href="feladatB.html" target="_blank">B Feladat</a>
+        <div>
+          <a href="#results" class="hide">Olimpiai eredmények</a>
+          <h1>Vívás</h1>
+          <a href="#comments" class="hide">Kommentek</a>
+        </div>
+        <a href="feladatB.html" target="_blank">A Feladat</a>
+      </nav>
+    </header>
+    <main>
+      <section id="intro">
+        <article>
+          <h2>Bevezetés</h2>
+          <p>
+            A vívás egy küzdősport, amelyben két versenyző mérkőzik egymással
+            egy speciális, téglalap alakú páston. A cél az, hogy minél több
+            érvényes találatot érjenek el egymás ellenfeleiken a három
+            fegyvernem valamelyikével: tőr, párbajtőr vagy kard. A vívás nem
+            csupán fizikai erőnlétet igényel, hanem stratégiai gondolkodást,
+            gyors reflexeket és precíz technikát is.
+          </p>
+          <p>
+            A vívás gyökerei mélyre nyúlnak a történelemben, egészen az ókorig.
+            Az idők során a vívás a harcászati képességek fejlesztésének
+            eszközeként szolgált, majd a reneszánsz idején vált önálló
+            sportággá. A modern vívás a 19. században alakult ki, és azóta is
+            folyamatosan fejlődik.
+          </p>
+          <p>
+            A vívás egy izgalmas és kihívásokkal teli sportág, amely remek
+            lehetőséget kínál a fizikai és mentális fejlődésre. Ha érdekel a
+            vívás, érdemes felkeresni egy vívóklubot, ahol szakértő edzők
+            segítségével sajátíthatod el a sportág alapjait és fejlesztheted a
+            képességeidet.
+          </p>
+        </article>
+        <div>
+          <img
+            src="images/vivas12.png"
+            alt="Szilágyi Áron"
+            title="Szilágyi Áron"
+          />
+        </div>
+      </section>
+      <section id="results">
+        <h3>Olimpia eredmények</h3>
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th><span>Olimpia</span></th>
+                <th>Év</th>
+                <th>Versenyszám</th>
+                <th>Arany</th>
+                <th>Ezüst</th>
+                <th>Bronz</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Párizs</td>
+                <td>2024</td>
+                <td>Férfi kard csapat</td>
+                <td>Dél-Korea</td>
+                <td>Magyarország</td>
+                <td>Egyesült Államok</td>
+              </tr>
+              <tr>
+                <td>Párizs</td>
+                <td>2024</td>
+                <td>Női párbajtőr egyéni</td>
+                <td>Muhari Eszter</td>
+                <td>Auriane Mallo-Breton</td>
+                <td>Nelli Differt</td>
+              </tr>
+              <tr>
+                <td>Tokió</td>
+                <td>2020</td>
+                <td>Férfi kard egyéni</td>
+                <td>Szilágyi Áron</td>
+                <td>Oh Sanguk</td>
+                <td>Kim Jung-hwan</td>
+              </tr>
+              <tr>
+                <td>Tokió</td>
+                <td>2020</td>
+                <td>Női tőr csapat</td>
+                <td>Orosz Olimpiai Bizottság</td>
+                <td>Franciaország</td>
+                <td>Olaszország</td>
+              </tr>
+              <tr>
+                <td>Rio de Janeiro</td>
+                <td>2016</td>
+                <td>Férfi kard egyéni</td>
+                <td>Szilágyi Áron</td>
+                <td>Daryl Homer</td>
+                <td>Kim Jung-hwan</td>
+              </tr>
+              <tr>
+                <td>Rio de Janeiro</td>
+                <td>2016</td>
+                <td>Női párbajtőr csapat</td>
+                <td>Kína</td>
+                <td>Észtország</td>
+                <td>Lengyelország</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <caption>
+          Eredmények a 2024, 2020, 2016-os olimpiákon.
+        </caption>
+      </section>
+      <section id="others">
+        <div>
+          <h4>Egyéb információk</h4>
+          <div>
+            <ul>
+              <h5>Híres magyarok</h5>
+              <li>Gerevich Aladár</li>
+              <li>Szilágyi Áron</li>
+              <li>Nagy Tímea</li>
+              <li>Szász Emese</li>
+              <li>Elek Ilona</li>
+              <li>Kovács Pál</li>
+              <li>Kárpáti Rudolf</li>
+            </ul>
+            <ol>
+              <h6>Vívás felszerelések</h6>
+              <li>Tőr</li>
+              <li>Párbajtőr</li>
+              <li>Kard</li>
+              <li>Maszk</li>
+              <li>Vívóruha</li>
+              <li>Mellvédő</li>
+              <li>Kesztyű</li>
+            </ol>
+          </div>
+        </div>
+
+        <div>
+          <form id="form" onsubmit="return false;">
+            <h2>Komment írása</h2>
+            <div>
+              <label for="name">Név:</label>
+              <input type="text" id="name" name="name" maxlength="40" />
+            </div>
+            <div>
+              <label for="comment">Komment:</label>
+              <textarea name="comment" id="comment" maxlength="400"></textarea>
+            </div>
+            <button id="btn">Közzététel</button>
+          </form>
+        </div>
+      </section>
+      <section id="comments">
+        <h2>Kommentek</h2>
+        <div id="cmts"></div>
+        <button onclick="deleteComments()">Kommentek törlése</button>
+      </section>
+    </main>
+    <footer class="footer">
+      <span>Készítette: Leskó Milán</span>
+    </footer>
+  </body>
+</html>
